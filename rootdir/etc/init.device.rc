@@ -15,3 +15,9 @@ service autokd /system/bin/autokd
     class core
     user root
     group system
+
+service volkey_switch /system/bin/tinymix VOLKEY_SWITCH VOLKEY_SWAP
+    class main
+    user root
+    group root
+    oneshot
