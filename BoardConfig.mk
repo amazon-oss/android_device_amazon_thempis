@@ -8,7 +8,7 @@ DEVICE_PATH := device/amazon/thempis
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_amazon
-TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_PATH)/init/init_thempis.c
+TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_PATH)/init/init_thempis.cpp
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := thempis,thebes,memphis
