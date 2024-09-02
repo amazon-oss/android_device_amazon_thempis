@@ -79,3 +79,6 @@ vendor/firmware/maxtouch.20.fw
 lib/hw/sensors.mt8135.so
 lib/libinvensense_hal.so
 lib/libmotion.so
+
+# Wi-Fi
+bin/autokd

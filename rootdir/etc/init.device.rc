@@ -1,0 +1,17 @@
+on init
+    # autok
+    chown root system /sys/autok/debug
+    chown root system /sys/autok/param_count
+    chown root system /sys/autok/ready
+    chown root system /sys/autok/ss_corner
+    chown root system /sys/autok/suggest_vol
+    chown root system /sys/autok/stage1/3/DONE
+    chown root system /sys/autok/stage1/3/PARAMS
+    chown root system /sys/autok/stage1/3/VOLTAGE
+    chown root system /sys/autok/stage1/3/LOG
+    chown root system /sys/autok/stage2/3
+
+service autokd /system/bin/autokd
+    class core
+    user root
+    group system
