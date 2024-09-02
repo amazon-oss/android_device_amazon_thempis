@@ -13,7 +13,7 @@ $(call inherit-product, device/amazon/thempis/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/cm/config/common_mini_tablet_wifionly.mk)
 
-PRODUCT_NAME := cm_thempis
+PRODUCT_NAME := lineage_thempis
 PRODUCT_DEVICE := thempis
 PRODUCT_MANUFACTURER := Amzn
 PRODUCT_BRAND := google
