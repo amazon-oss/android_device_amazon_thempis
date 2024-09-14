@@ -11,7 +11,7 @@ TARGET_INIT_VENDOR_LIB := libinit_amazon
 TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_PATH)/init/init_thempis.cpp
 
 # Kernel
-TARGET_KERNEL_CONFIG := mt8135_thebes_defconfig
+TARGET_KERNEL_ADDITIONAL_CONFIG := thempis.config
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := thempis,thebes,memphis
